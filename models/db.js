@@ -1,7 +1,8 @@
 var mongoose = require('mongoose');
-const db = "YouyDBName";
+const db = "YourDBName";
 const dburl = process.env.NODE_ENV === 'production' ? "/" : "mongodb://localhost:27017/" + db;
-var retry = null;
+// var retry = null;
+// mongoose.connect(dburl,{ useNewUrlParser: true });
 mongoose.connect(dburl);
 
 
