@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+
 // Example
 // var User = mongoose.model('User');
 
